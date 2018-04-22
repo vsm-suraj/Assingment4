@@ -84,26 +84,82 @@ body {
 .graph-div{
     padding-top: 5.5px;
     height: 195px;
+    max-width: 1023px;
 }
 
 .emotion-pic-div, .emotion-graph-div{
     display: inline-block;
 }
 .emotion-graph-div {
-    width: 60.4%;
+    width: 675px;
     border-right: 1.5px solid #747474;
 }
 .emotion-pic-div{
     display: inline-block;
-    width: 10%;
+    width: 280px;
 }
 .facial-emotion-div, .facial-emotion-graph-div {
     display: inline-block;
     float: left;
-    width: 45%;
 }
-
+.facial-emotion-div{
+    width: 355px;
+}
+.facial-emotion-graph-div{
+    margin-top: 33px;
+    width: 225px;
+}
 .emotion-graph-pic{
     width: 100%;
     max-height: 150px;
+}
+.facial-emotion-span {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.facial-emotion-div{
+    padding: 20px;
+}
+.facial-emotion-p {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: white;
+}
+.emotion-pic{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 90%;
+    height: 125px;
+}
+
+.anger, .disgust, .surprise, .contempt {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 156px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    border: 1px solid red;
+}
+.anger {
+    background-color: #DA0000;
+}
+.disgust {
+    background-color: #F7615E;
+}
+.surprise {
+    background-color: #F4FF00;
+}
+.contempt {
+    background-color: #FDD100;
+}
+.anger span, .disgust span, .surprise span, .contempt span {
+    display: inline-block;
+    color: #DBD8D7;
 }
