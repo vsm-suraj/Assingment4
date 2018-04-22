@@ -38,33 +38,49 @@ body {
     padding-right: 62px;
 }
 .natural-image{
-    width: 100%;
+    width: 900px;
     height: 310px;
 }
 .play-bar-div{
-    width: 100%;
+    padding-top: 25px; 
+    max-width: 1023px;
     height: 94px;
     background-color: #2C2D33;
+}
+
+.speaker-div, .play-button-div, .play-list-div, .add-song-div {
+    position: relative;
+    display: block;
+    width: 32px;
+    height: 32px;
 }
 .speaker, .play-button, .play-list, .add-song {
     display: inline-block;
     height: 32px;
     width: 32px;
 }
-.speaker{
-    margin: auto;
+.speaker-div {
+    float: left;
 }
-.play-button{
-    margin: auto;
-}
-.play-list, .add-song{
-    float: right;
-}
-/* .play-list::after, .add-song::after {
-    content: "";
+.play-button-div {
     clear: both;
-    display: table;
-} */
+    position: absolute;
+    left: 50%;
+}
+.play-add-song-div{
+    position: relative;
+    margin-right: 10px;
+    float: right;
+
+}
+.play-list-div, .add-song-div{
+    display: inline-block;
+}
+
+.play-list-div{
+    margin-right: 20px;
+}
+
 .graph-div{
     padding-top: 5.5px;
     height: 195px;
