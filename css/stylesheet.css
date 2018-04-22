@@ -3,7 +3,7 @@
 }
 body {
     margin: 0;
-    padding: 0 90px;
+    padding: 0 89px;
     background-color: #161616;
 }
 
@@ -13,33 +13,81 @@ body {
 .column-left{
     position: absolute;
     left: 0;
-    width: 300px;
+    width: 262px;
     height: 700px;
 }
 .column-right{
-    margin-left: 302px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 40px;
+    margin-left: 262px;
+    padding-top: 38px;
     background-color: #282828;
 }
 .pins{
-    height: 40px;
+    height: 38px;
     width: 100%;
     background-color: #232323;
     color: #ffffff;
     line-height: 40px;
 }
 .column-left-main-body{
-    background-color: #232323;
+    background-color: #2A303D;
     width: 100%;
-    height: 100%;
+    height: 500px;
+}
+.img-div{
+    padding-left: 62px;
+    padding-right: 62px;
 }
 .natural-image{
     width: 100%;
-    height: 350px;
+    height: 310px;
 }
-.play-bar{
+.play-bar-div{
     width: 100%;
-    height: 100px;
+    height: 94px;
+    background-color: #2C2D33;
+}
+.speaker, .play-button, .play-list, .add-song {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+.speaker{
+    margin: auto;
+}
+.play-button{
+    margin: auto;
+}
+.play-list, .add-song{
+    float: right;
+}
+/* .play-list::after, .add-song::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+.graph-div{
+    padding-top: 5.5px;
+    height: 195px;
+}
+
+.emotion-pic-div, .emotion-graph-div{
+    display: inline-block;
+}
+.emotion-graph-div {
+    width: 60.4%;
+    border-right: 1.5px solid #747474;
+}
+.emotion-pic-div{
+    display: inline-block;
+    width: 10%;
+}
+.facial-emotion-div, .facial-emotion-graph-div {
+    display: inline-block;
+    float: left;
+    width: 45%;
+}
+
+.emotion-graph-pic{
+    width: 100%;
+    max-height: 150px;
 }
