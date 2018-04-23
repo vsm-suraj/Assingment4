@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/tone-analysis.css">
 </head>
 
 <body>
@@ -14,9 +15,10 @@
             <div class="pins">Pins</div>
             <div class="column-left-main-body">
                 <nav class="left-side-nav-bar">
-                    <a class="annotation" href="#">Annotations</a>
-                    <a class="tone-analysis" href="#">Tone Analysis</a>
+                    <a class="annotation" href="#/annotations">Annotations</a>
+                    <a class="tone-analysis" href="#/tone-analysis">Tone Analysis</a>
                 </nav>
+                <ng-view></ng-view>
             </div>
         </div>
         <div class="column-right">
