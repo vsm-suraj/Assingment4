@@ -3,7 +3,7 @@
 }
 body {
     margin: 0;
-    padding: 0 89px;
+    padding: 0 66px;
     background-color: #161616;
 }
 
@@ -13,16 +13,17 @@ body {
 .column-left{
     position: absolute;
     left: 0;
-    width: 262px;
+    width:  271px;
     height: 700px;
 }
 .column-right{
-    margin-left: 262px;
-    padding-top: 38px;
+    position: relative;
+    margin-left: 271px;
+    padding-top: 40px;
     background-color: #282828;
 }
 .pins{
-    height: 38px;
+    height: 40px;
     width: 100%;
     background-color: #232323;
     color: #ffffff;
@@ -34,12 +35,12 @@ body {
     height: 500px;
 }
 .img-div{
-    padding-left: 62px;
-    padding-right: 62px;
+    padding-left: 65px;
+    padding-right: 65px;
 }
 .natural-image{
-    width: 900px;
-    height: 310px;
+    width: 955px;
+    height: 330px;
 }
 .play-bar-div{
     padding-top: 25px; 
@@ -162,4 +163,21 @@ body {
 .anger span, .disgust span, .surprise span, .contempt span {
     display: inline-block;
     color: #DBD8D7;
+}
+.live-emotion-bar{
+    position: absolute;
+    padding: 25px  0 25px 25px;
+    width: 1060px;
+    background-color: rgb(22, 22, 22, 0.5);
+    top: 239px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.live-emotion-li-bar{
+    display: inline-block;
+    width: 2px;
+    margin-left: 5px;
 }

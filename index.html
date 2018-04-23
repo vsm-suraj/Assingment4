@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 
 <head>
     <title></title>
@@ -9,12 +9,17 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" ng-controller="myAppCtrl">
         <div class="column-left">
             <div class="pins">Pins</div>
             <div class="column-left-main-body"></div>
         </div>
         <div class="column-right">
+            <div class="live-emotion-bar">
+                <ul>
+                    <li class="live-emotion-li-bar" style="background-color: {{data.color}}; height: {{data.height}};" ng-repeat="data in emotionData"></li>
+                </ul>
+            </div>
             <div class="img-div">
                 <img class="natural-image" src="img/4-Nature-Wallpapers-2014-1_cDEviqY.jpg" alt="Nature Wallpapers">
             </div>
@@ -70,6 +75,13 @@
             </div>
         </div>
     </div>
+
+    <script src="lib/angular.1.1.5/angular.min.js"></script>
+    <script src="lib/angular.1.1.5/angular-resource.min.js"></script>
+    <script src="lib/jquery/jquery-3.3.1.min.js"></script>
+    <script src="js/my-app.js"></script>
+    <script src="js/controllers/my-app-ctrl.js"></script>
+    <script src="js/services/emotion-data-service.js"></script>
 </body>
 
 </html>
