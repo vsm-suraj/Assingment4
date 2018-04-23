@@ -20,6 +20,13 @@
                     <li class="live-emotion-li-bar" style="background-color: {{data.color}}; height: {{data.height}};" ng-repeat="data in emotionData"></li>
                 </ul>
             </div>
+            <div class="zoomed-div">
+                <div class="zoomed-div-label-left">00:00:06</div>
+                <div class="zoomed-div-label-right">00:01:11</div>
+                <ul>
+                    <li class="zoomed-box-li" style="background-color: {{data.color}}; height: {{data.height}}" ng-repeat="data in instantaniusData"></li>
+                </ul>
+            </div>
             <div class="img-div">
                 <img class="natural-image" src="img/4-Nature-Wallpapers-2014-1_cDEviqY.jpg" alt="Nature Wallpapers">
             </div>
@@ -82,6 +89,7 @@
     <script src="js/my-app.js"></script>
     <script src="js/controllers/my-app-ctrl.js"></script>
     <script src="js/services/emotion-data-service.js"></script>
+    <script src="js/services/instantanius-data-service.js"></script>
 </body>
 
 </html>
