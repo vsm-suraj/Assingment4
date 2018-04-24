@@ -170,14 +170,23 @@ body {
     background-color: rgb(255, 76, 87);
 }
 .surprise {
-    background-color: rgb(244, 255, 0);
+    background-color: rgb(244, 255, 0, 0.8);
 }
 .contempt {
-    background-color: rgb(253, 209, 0);
+    background-color: rgb(253, 209, 0, 0.9);
 }
 .anger span, .disgust span, .surprise span, .contempt span {
     display: inline-block;
     color: #DBD8D7;
+}
+.video-duration-lable {
+    position: absolute;
+    margin-bottom: 5px;
+    height: 20px;
+    width: 138px;
+    right: 40px;
+    top: 20px;
+    color: whitesmoke;
 }
 .live-emotion-bar{
     position: absolute;
