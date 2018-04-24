@@ -2,7 +2,6 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .tone-analysis-container {
-    margin
 }
 .tone-analysis-nav-bar{
 }
@@ -39,4 +38,61 @@
     color: rgb(0, 215, 186);
     font-weight: 400;
     font-size: 14px;
+}
+
+.emotion-progress-bar-leftside, .emotion-progress-bar-rightside {
+    display: inline-block;
+    width: 100px;
+}
+.emotion-progress-bar-leftside {
+    width: fit-content;
+}
+.emotion-progress-bar-rightside progress {
+    height: 25px;
+    margin-bottom: 5px;
+}
+.emotion-table-row {
+    color: whitesmoke;
+}
+
+.anger-progress-bar-div, .disjust-progress-bar-div, .fear-progress-bar-div, .joy-progress-bar-div {
+    margin-bottom: 5px;
+    height: 20px;
+    width: 130px;
+    background: whitesmoke;
+}
+.anger-progress-bar {
+    height: 20px;
+    width: 20px;
+    background: rgb(176, 0, 32);
+}
+.disjust-progress-bar {
+    height: 20px;
+    width: 30px;
+    background: rgb(0, 120, 118);
+}
+.fear-progress-bar {
+    height: 20px;
+    width: 40px;
+    background: rgb(132, 0, 65);
+}
+.joy-progress-bar {
+    height: 20px;
+    width: 32px;
+    background: rgb(14, 48, 69);
+}
+
+.routing-div {
+
+}
+.left-side-bar-img {
+    height: 650px;
+    overflow: auto;
+}
+.left-side-bar-img img {
+    width: 100%;
+}
+
+.pins-ng-view {
+    display: none;
 }

@@ -12,13 +12,26 @@
 <body>
     <div class="container" ng-controller="myAppCtrl">
         <div class="column-left">
-            <div class="pins">Pins</div>
+            <a class="pins-link" href="#/pins">
+                <div class="pins">
+                    <div class="pins-arrow-logo-div">
+                        <img src="img/arrow-logo.png" alt="arrow logo">
+                    </div>
+                    Pins
+                </div>
+            </a>
+            <div class="pins-ng-view">
+                <ng-view></ng-view>
+            </div>
+
             <div class="column-left-main-body">
                 <nav class="left-side-nav-bar">
                     <a class="annotation" href="#/annotations">Annotations</a>
                     <a class="tone-analysis" href="#/tone-analysis">Tone Analysis</a>
                 </nav>
-                <ng-view></ng-view>
+                <div class="routing-div">
+                    <ng-view></ng-view>
+                </div>
             </div>
         </div>
         <div class="column-right">
@@ -97,6 +110,7 @@
     <script src="js/controllers/my-app-ctrl.js"></script>
     <script src="js/services/emotion-data-service.js"></script>
     <script src="js/services/instantanius-data-service.js"></script>
+    <script src="js/sliding.js"></script>
 </body>
 
 </html>
