@@ -3,7 +3,7 @@ myApp.service('emotionDataService', function ($http, $q) {
         var deferred = $q.defer()
         var url = 'json/';
         var fileName = 'emotions-data.json'
-        
+
         $http({
             method: 'GET',
             url: url + fileName,

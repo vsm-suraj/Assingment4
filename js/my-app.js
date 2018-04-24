@@ -15,4 +15,4 @@ myApp.config(function ($routeProvider) {
     }).otherwise({
         templateUrl: url + toneAnalysisFileName
     });
-}); 
+});

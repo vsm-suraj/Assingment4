@@ -1,5 +1,5 @@
-.b {
-    border: 1px solid springgreen; 
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body {
     margin: 0;
@@ -10,20 +10,23 @@ body {
 .container {
     position: relative;
 }
-.column-left{
+
+.column-left {
     position: absolute;
     left: 0;
-    width:  271px;
+    width: 271px;
     min-height: 650px;
     background-color: #2A303D;
 }
-.column-right{
+
+.column-right {
     position: relative;
     margin-left: 271px;
     padding-top: 40px;
     background-color: #282828;
 }
-.pins{
+
+.pins {
     display: inline-block;
     height: 40px;
     width: 100%;
@@ -31,104 +34,130 @@ body {
     color: #ffffff;
     line-height: 40px;
 }
+
 .pins-arrow-logo-div {
     margin-left: 10px;
     display: inline-block;
 }
+
 .pins-arrow-logo {
     height: 15px;
 }
+
 .pins-link {
     color: whitesmoke;
     text-decoration: none;
 }
-.column-left-main-body{
+
+.column-left-main-body {
     position: absolute;
     background-color: #2A303D;
     width: 100%;
     height: 655px;
 }
-.img-div{
+
+.img-div {
     padding-left: 65px;
     padding-right: 65px;
 }
-.natural-image{
+
+.natural-image {
     width: 955px;
     height: 330px;
 }
-.play-bar-div{
-    padding-top: 25px; 
+
+.play-bar-div {
+    padding-top: 25px;
     max-width: 1023px;
     height: 94px;
     background-color: #2C2D33;
 }
 
-.speaker-div, .play-button-div, .play-list-div, .add-song-div {
+.speaker-div,
+.play-button-div,
+.play-list-div,
+.add-song-div {
     position: relative;
     display: block;
     width: 32px;
     height: 32px;
 }
-.speaker, .play-button, .play-list, .add-song {
+
+.speaker,
+.play-button,
+.play-list,
+.add-song {
     display: inline-block;
     height: 32px;
     width: 32px;
 }
+
 .speaker-div {
     margin-left: 10px;
     float: left;
 }
+
 .play-button-div {
     clear: both;
     position: absolute;
     left: 50%;
 }
-.play-add-song-div{
+
+.play-add-song-div {
     position: relative;
     margin-right: 10px;
     float: right;
-
 }
-.play-list-div, .add-song-div{
+
+.play-list-div,
+.add-song-div {
     display: inline-block;
 }
 
-.play-list-div{
+.play-list-div {
     margin-right: 20px;
 }
 
-.graph-div{
+.graph-div {
     padding-top: 5.5px;
     height: 195px;
     max-width: 1023px;
 }
 
-.emotion-pic-div, .emotion-graph-div{
+.emotion-pic-div,
+.emotion-graph-div {
     display: inline-block;
 }
+
 .emotion-graph-div {
     width: 675px;
     border-right: 1.5px solid #747474;
 }
-.emotion-pic-div{
+
+.emotion-pic-div {
     display: inline-block;
     width: 280px;
 }
-.facial-emotion-div, .facial-emotion-graph-div {
-    display: inline-block;
+
+.facial-emotion-div,
+.facial-emotion-graph-div {
     float: left;
 }
-.facial-emotion-div{
+
+.facial-emotion-div {
     width: 355px;
 }
-.facial-emotion-graph-div{
+
+.facial-emotion-graph-div {
     margin-top: 33px;
     width: 225px;
 }
-.emotion-graph-pic{
+
+.emotion-graph-pic {
     width: 100%;
     max-height: 150px;
 }
+
 .facial-emotion-span {
     margin: 0 !important;
     padding: 0 !important;
@@ -137,15 +166,18 @@ body {
     font-weight: 600;
     font-family: sans-serif;
 }
-.facial-emotion-div{
+
+.facial-emotion-div {
     padding: 20px;
 }
+
 .facial-emotion-p {
     margin: 0 !important;
     padding: 0 !important;
     color: white;
 }
-.emotion-pic{
+
+.emotion-pic {
     display: inline-block;
     margin-bottom: 20px;
     margin-left: 50px;
@@ -153,7 +185,10 @@ body {
     height: 125px;
 }
 
-.anger, .disgust, .surprise, .contempt {
+.anger,
+.disgust,
+.surprise,
+.contempt {
     margin-left: 10px;
     margin-top: 10px;
     display: inline-block;
@@ -163,22 +198,31 @@ body {
     line-height: 28px;
     border: 1px solid red;
 }
+
 .anger {
     background-color: rgb(226, 0, 0);
 }
+
 .disgust {
     background-color: rgb(255, 76, 87);
 }
+
 .surprise {
     background-color: rgb(244, 255, 0, 0.8);
 }
+
 .contempt {
     background-color: rgb(253, 209, 0, 0.9);
 }
-.anger span, .disgust span, .surprise span, .contempt span {
+
+.anger span,
+.disgust span,
+.surprise span,
+.contempt span {
     display: inline-block;
     color: #DBD8D7;
 }
+
 .video-duration-lable {
     position: absolute;
     margin-bottom: 5px;
@@ -188,25 +232,28 @@ body {
     top: 20px;
     color: whitesmoke;
 }
-.live-emotion-bar{
+
+.live-emotion-bar {
     position: absolute;
-    padding: 25px  0 25px 25px;
+    padding: 25px 0 25px 25px;
     width: 1060px;
     background-color: rgb(22, 22, 22, 0.5);
     top: 239px;
 }
-ul{
+
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.live-emotion-li-bar{
+
+.live-emotion-li-bar {
     display: inline-block;
     width: 2px;
     margin-left: 5px;
 }
 
-.zoomed-div{
+.zoomed-div {
     position: absolute;
     width: 300px;
     height: 152px;
@@ -215,39 +262,43 @@ ul{
     background-color: rgb(22, 22, 22, 0.97);
     border: 1px solid white;
 }
-.zoomed-box-li{
+
+.zoomed-box-li {
     display: inline-block;
     width: 2px;
     margin-left: 5px;
 }
 
-.zoomed-div-label-left, .zoomed-div-label-right {
+.zoomed-div-label-left,
+.zoomed-div-label-right {
     position: absolute;
     height: 20px;
     width: 70px;
-    background-color: rgb(62, 70, 67,0.8);
+    background-color: rgb(62, 70, 67, 0.8);
     top: -25px;
     text-align: center;
     color: white;
     padding: 2px;
 }
+
 .zoomed-div-label-left {
     left: -10px;
-} 
+}
+
 .zoomed-div-label-right {
     right: -10px;
 }
 
-
-
 /* left side nav bar css */
+
 .left-side-nav-bar {
     padding-top: 10px;
     height: 15px;
     text-align: center;
-
 }
-.annotation, .tone-analysis {
+
+.annotation,
+.tone-analysis {
     display: inline-block;
     padding: 5px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -258,42 +309,47 @@ ul{
     width: 120px;
 }
 
-.annotation:hover, .tone-analysis:hover {
+.annotation:hover,
+.tone-analysis:hover {
     border-bottom: 2px solid rgb(120, 120, 120);
-} 
-.annotation:focus, .tone-analysis:focus {
+}
+
+.annotation:focus,
+.tone-analysis:focus {
     border-bottom: 2px solid yellow;
 }
 
 /* annotation page */
+
 .annotation-page-div {
     color: aliceblue;
     text-align: center;
 }
 
-
-
-
-
 /* scroll bar */
+
 /* width */
+
 ::-webkit-scrollbar {
     width: 5px;
 }
 
 /* Track */
+
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
+    box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
 }
- 
+
 /* Handle */
+
 ::-webkit-scrollbar-thumb {
-    background: red; 
+    background: red;
     border-radius: 10px;
 }
 
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
-    background: #b30000; 
+    background: #b30000;
 }
