@@ -32,7 +32,11 @@ body {
     line-height: 40px;
 }
 .pins-arrow-logo-div {
+    margin-left: 10px;
     display: inline-block;
+}
+.pins-arrow-logo {
+    height: 15px;
 }
 .pins-link {
     color: whitesmoke;
@@ -160,16 +164,16 @@ body {
     border: 1px solid red;
 }
 .anger {
-    background-color: #DA0000;
+    background-color: rgb(226, 0, 0);
 }
 .disgust {
-    background-color: #F7615E;
+    background-color: rgb(255, 76, 87);
 }
 .surprise {
-    background-color: #F4FF00;
+    background-color: rgb(244, 255, 0);
 }
 .contempt {
-    background-color: #FDD100;
+    background-color: rgb(253, 209, 0);
 }
 .anger span, .disgust span, .surprise span, .contempt span {
     display: inline-block;
@@ -230,7 +234,9 @@ ul{
 /* left side nav bar css */
 .left-side-nav-bar {
     padding-top: 10px;
+    height: 15px;
     text-align: center;
+
 }
 .annotation, .tone-analysis {
     display: inline-block;
@@ -242,10 +248,6 @@ ul{
     color: whitesmoke;
     width: 120px;
 }
-.annotation {
-} 
-.tone-analysis {
-}
 
 .annotation:hover, .tone-analysis:hover {
     border-bottom: 2px solid rgb(120, 120, 120);
@@ -254,11 +256,11 @@ ul{
     border-bottom: 2px solid yellow;
 }
 
-.pins-ng-view {
+/* annotation page */
+.annotation-page-div {
+    color: aliceblue;
+    text-align: center;
 }
-
-
-
 
 
 
